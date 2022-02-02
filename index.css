@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 body{
     background:  hsl(212, 45%, 89%);
-    /* display: flex;
+     display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
+    height: 100vh;
 }
 .container{
     width: 326px;
     height: 500px;
     background: hsl(0, 0%, 100%);
     border-radius: 15px;
-    align-items: center;
-    text-align: center;
     box-shadow: 2px 1px 20px  hsl(220, 15%, 55%);
+   
 }
 img{
     width: 285px;
@@ -31,25 +31,28 @@ img{
     line-height: 31px;
     text-align: center;
     color: hsl(218, 44%, 22%);
-    
+    padding: 0px 20px;
 }
 #second_head{
-    width: 224px;
+    width: 234px;
     height: 40px;
     font-family: Outfit;
     font-weight: 400px;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 20px;
     text-align: center;
+    align-items: center;
     color: hsl(220, 15%, 55%);
+    padding: 0px 40px;
 }
 
 #box{
     width: 500px;
     background-color: rgb(56, 88, 230);
     display: flex;
-    text-align: justify;
+    text-align: center;
     position: fixed;
+    bottom: 0;
 }
 a{
     color: white;
